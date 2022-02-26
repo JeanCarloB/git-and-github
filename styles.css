@@ -1,5 +1,40 @@
 *{
-    background:red;
     margin:0;
     padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: rgb(255, 101, 101);
+    text-align: center;
+}
+nav li{
+    display:inline-block;
+    margin-left: 70px;
+}
+nav li a{
+    display: block;
+    line-height: 2;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+}
+nav li a:hover{
+    background-color: rgb(153, 0, 0);
+    border-radius: 5px;
+}
+article{
+    width: 50%;
+    padding: 20px;
+    background-color: burlywood;
+}
+article h2{
+    font-size: 30px;
+    font-family: cursive;
+
 }
